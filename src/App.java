@@ -43,13 +43,16 @@ public class App {
                 if (IDs.get(i) == input) {
                     System.out.println("Error: Duplicate ID");
 
-                    int temp = i;
+        
                     break;
 
-                }
-                break;
+                } else if(IDs.get(i) != input){
+                    IDs.add(input);
 
                 }
+
+                }
+                
 
             
 
